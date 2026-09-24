@@ -1,0 +1,80 @@
+ai_tape_rfc:
+  id: RFC_0001_MACHINE_v1.09
+  version: "1.09"
+  status: ratified_stable
+  prior_stable_version: "1.08"
+  active_floor_version: "1.09"
+  purpose:
+    - schema_version_authority
+    - dual_pillar_active_asset_protection
+    - active_meaning_protection
+    - capability_floor_balance
+    - operational_template_formatting_cleanup
+  exclusions:
+    - free_baton
+    - semantic_density
+    - semantic_advisory_layer
+    - relationship_maps
+    - erp_liferaft_godzilla
+    - correspondence
+    - humour_or_story
+    - active_questions_experimental_class
+    - failure_of_understanding_experimental_class
+    - deep_mode
+    - forensic_archive_expansion
+    - transcript_preservation_redesign
+    - provenance_origin_tracking
+
+schema_version_authority:
+  minimal_operational_block:
+    declared_schema_version: "1.09"
+    authority_status: ratified_stable
+    ratified: true
+  authority_states:
+    - ratified_stable
+    - candidate
+    - experimental
+    - research
+    - deprecated
+    - archived
+    - local_private
+  rules:
+    - candidate_is_not_stable
+    - experimental_is_not_stable
+    - local_private_is_not_global_protocol_authority
+    - experimental_use_does_not_imply_standardization
+    - v1_09_is_ratified_stable
+
+active_asset_protection:
+  applies_when: active_assets_materially_affect_continuation_review_verification_reproduction_or_safe_modification
+  definition: current_project_material_required_by_a_competent_successor_to_continue_verify_review_reproduce_or_safely_modify_work_without_rediscovery
+  examples:
+    - artifact
+    - open_question
+    - risk
+    - pending_decision
+    - defended_stance
+  guidance:
+    - protect_what_matters
+    - review_what_remains
+    - remove_what_no_longer_helps_but_verify_first
+    - preserve_value_not_clutter
+    - use_judgement
+    - document_uncertainty
+    - leave_project_stronger_than_found
+  zero_loss_active_meaning:
+    - do_not_drop_active_asset_for_tidiness_brevity_or_aesthetic_uniformity
+    - compression_allowed_only_when_successor_can_recover_original_force_and_direction
+  minimal_block:
+    active_assets_present: unknown
+    active_assets_checked: no
+    asset_status_confidence: unknown
+    notes: No active asset assessment was required for this operational tape.
+  success_test: competent_successor_can_identify_and_act_on_current_active_assets_without_external_reconstruction_or_guesswork
+
+capability_floor_balance:
+  floor_must_remain_accessible_across_model_capabilities: true
+  advanced_structures_optional: true
+  frontier_model_reasoning_required_for_baseline_restore: false
+
+rollback_reference: v1.08_ratified_stable
